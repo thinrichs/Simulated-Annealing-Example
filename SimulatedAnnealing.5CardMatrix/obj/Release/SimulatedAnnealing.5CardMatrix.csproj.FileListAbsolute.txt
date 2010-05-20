@@ -1,7 +1,0 @@
-D:\funcode\SimulatedAnnealing\SimulatedAnnealing.5CardMatrix\bin\Release\SimulatedAnnealing.5CardMatrix.exe
-D:\funcode\SimulatedAnnealing\SimulatedAnnealing.5CardMatrix\bin\Release\SimulatedAnnealing.5CardMatrix.pdb
-D:\funcode\SimulatedAnnealing\SimulatedAnnealing.5CardMatrix\obj\Release\ResolveAssemblyReference.cache
-D:\funcode\SimulatedAnnealing\SimulatedAnnealing.5CardMatrix\obj\Release\SimulatedAnnealing.5CardMatrix.exe
-D:\funcode\SimulatedAnnealing\SimulatedAnnealing.5CardMatrix\obj\Release\SimulatedAnnealing.5CardMatrix.pdb
-D:\git\Simulated-Annealling-Example\SimulatedAnnealing.5CardMatrix\obj\Release\SimulatedAnnealing.5CardMatrix.exe
-D:\git\Simulated-Annealling-Example\SimulatedAnnealing.5CardMatrix\obj\Release\SimulatedAnnealing.5CardMatrix.pdb
