@@ -1,8 +1,0 @@
-D:\funcode\SimulatedAnnealing\HandTests\bin\Release\Tests\HandsTestsInOrder.orderedtest
-D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll
-D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.pdb
-D:\funcode\SimulatedAnnealing\HandTests\bin\Release\SimulatedAnnealing.5CardMatrix.exe
-D:\funcode\SimulatedAnnealing\HandTests\bin\Release\SimulatedAnnealing.5CardMatrix.pdb
-D:\funcode\SimulatedAnnealing\HandTests\obj\Release\ResolveAssemblyReference.cache
-D:\funcode\SimulatedAnnealing\HandTests\obj\Release\HandTests.dll
-D:\funcode\SimulatedAnnealing\HandTests\obj\Release\HandTests.pdb
