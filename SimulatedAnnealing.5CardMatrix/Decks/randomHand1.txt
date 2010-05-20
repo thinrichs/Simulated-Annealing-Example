@@ -1,0 +1,36 @@
+#Row 0
+8D
+5D
+3S
+QH
+AS
+#Row 1
+8C
+JC
+JS
+6H
+8H
+#Row 2
+4H
+10S
+2H
+10C
+AC
+#Row 3
+10D
+KD
+QD
+4S
+6C
+#Row 4
+2C
+QS
+3H
+9H
+6S
+
+#8D       5D      QH      JC      4H
+#3S       AS      JS     10S      4S
+#8C       6H      2H      QD      6C
+#8H       10C     KD      2C      9H
+#AC       10D     QS      3H      6S

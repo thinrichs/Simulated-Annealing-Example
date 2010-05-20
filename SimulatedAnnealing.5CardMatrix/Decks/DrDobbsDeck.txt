@@ -1,0 +1,47 @@
+﻿# http://www.ddj.com/184408203?pgno=16
+# Max score: 4516
+#
+# Scoring Rules
+# =============
+# Straight Flush: 27456
+# Four of a kind: 1760
+# Full house: 293
+# Flush: 215
+# Straight: 108
+# Three of a kind: 20
+# Two pair: 9
+# Pair: 1
+#
+
+# These are listed in the order of the best score of 4516.
+
+4H
+2H
+5S
+3D
+AD
+
+KS
+JS
+10S
+QH
+AS
+
+KD
+7D
+10D
+8D
+6D
+
+KH
+JH
+5H
+8H
+AH
+
+KC
+7C
+9C
+3C
+AC
+

@@ -1,0 +1,36 @@
+#when I ran this 5 of the twelve hands were 2 pair.  I thought it was interesting so I used it
+#   5D      AS       6S      5H      AC
+#  10D      QC       6H      7C      3S
+#   2D      KD       KC      2H      JD
+#   5S      8C       9C      2C      3H
+#  10C      KH       6D      5C      JS
+#Row 0 
+5D
+AS
+6S
+5H
+AC
+#Row 1
+10D
+QC
+6H
+7C
+3S
+#Row 2
+2D
+KD
+KC
+2H
+JD
+#Row 3
+5S
+8C
+9C
+2C
+3H
+#Row 4
+10C
+KH
+6D
+5C
+JS

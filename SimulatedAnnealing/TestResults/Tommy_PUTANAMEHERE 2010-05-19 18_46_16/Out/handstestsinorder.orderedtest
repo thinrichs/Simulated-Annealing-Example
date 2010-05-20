@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="HandsTestsInOrder" storage="d:\funcode\simulatedannealing\handtests\tests\handstestsinorder.orderedtest" id="e25249d5-e6e9-4086-9af6-710017f90926" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <Css projectStructure="" iteration="" />
+  <Execution timeOut="2147483647" />
+  <Owners>
+    <Owner name="" />
+  </Owners>
+  <TestLinks>
+    <TestLink id="b7419606-0b2e-f5d3-4bb7-e53f19de3306" name="Hand_Should_Be_Evaluated_As_HighCard" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="afbc79d8-0a8c-ff5e-0640-8ab8bf6f7303" name="Hand_Should_Be_Evaluated_As_One_Pair" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="49fce5bb-8fcd-7c3e-ad3a-9ba33cea1b31" name="Hand_Should_Be_Evaluated_As_Two_Pair" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="3edbb883-78ee-aa30-b14e-fb4ffd7458f2" name="Hand_Should_Be_Evaluated_As_ThreeOfAKind" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="8a060e19-1efa-e6b6-dcdd-ef9580f264fe" name="Hand_Should_Be_Evaluated_As_Straight" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="e3241f56-9bca-9503-0982-f4b5cb92fad6" name="Hand_Should_Be_Evaluated_As_Straight" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="3cd879f7-8c4a-f84f-bc3d-b5f462b324b9" name="Hand_Should_Be_Evaluated_As_Straight" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="4e281f8f-0cec-29b9-2b8e-d172419bd8a6" name="Hand_Should_Be_Evaluated_As_Flush" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="7e54e1bd-7fca-af84-b3e9-96babcbc038d" name="Hand_Should_Be_Evaluated_As_FullHouse" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="20346c60-ca48-7172-3a55-5ba254ed6955" name="Hand_Should_Be_Evaluated_As_FourOfAKind" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="aedc76a3-d341-572f-7a98-2915fdca4d47" name="Hand_Should_Be_Evaluated_As_StraightFlush" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

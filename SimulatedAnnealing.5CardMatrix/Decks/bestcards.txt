@@ -1,0 +1,36 @@
+#(pre randomized / best solution (I think? Can you think of better?)) – there are many grid derivations of here that give similar scores
+#Row 0
+AD
+AH
+AC
+9S
+AS
+#Row 1
+KD
+KH
+KC
+8C
+KS
+#Row 2
+QD
+QH
+QC
+9D
+QS
+#Row 3
+JD
+JH
+JC
+9H
+JS
+#Row 4
+10D
+10H
+10C
+9C
+10S
+#AD  AH  AC  9S  AS
+#KD  KH  KC  8C  KS
+#QD  QH  QC  9D  QS
+#JD  JH  JC  9H  JS
+#10D 10H 10C 9C 10S

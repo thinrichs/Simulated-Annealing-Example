@@ -1,0 +1,862 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="32d45ed4-3f6b-4061-a5e4-b9b5cd677202" name="Tommy@PUTANAMEHERE 2010-05-19 18:46:16" runUser="PUTANAMEHERE\Tommy" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="ace655fa-64f1-4527-bd2b-5476785bed26">
+    <Deployment runDeploymentRoot="D:\funcode\SimulatedAnnealing\SimulatedAnnealing\TestResults\Tommy_PUTANAMEHERE 2010-05-19 18_46_16">
+      <DeploymentItem filename="D:\funcode\SimulatedAnnealing\SimulatedAnnealing.5CardMatrix\bin\Release\SimulatedAnnealing.5CardMatrix.exe" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="70" executed="70" passed="70" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-05-19T18:46:16.8906250-06:00" queuing="2010-05-19T18:46:18.9062500-06:00" start="2010-05-19T18:46:19.4218750-06:00" finish="2010-05-19T18:46:21.0781250-06:00" />
+  <TestDefinitions>
+    <UnitTest name="Hand_Should_Be_Evaluated_As_Straight" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="e3241f56-9bca-9503-0982-f4b5cb92fad6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3612bbe6-9040-4207-a79e-aca309fc82e9" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Are_Ordered_And_Dont_Contain_Ace, HandTests" name="Hand_Should_Be_Evaluated_As_Straight" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Less_Than_Flush" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="4cec7b43-55a9-f57f-16e8-c2ab02743f72">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9e014c45-0e6e-4b68-a860-b1061c574e2b" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Are_Ordered_And_Contain_Ace_As_Low_Card, HandTests" name="Hand_Value_Should_Be_Less_Than_Flush" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Less_Than_TwoPair" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="97fde04c-afc2-2d32-3e8d-8673abe26654">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c0102ee5-ee59-47a8-8725-abd35a4b5cce" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Contain_Two_Cards_With_Same_Number, HandTests" name="Hand_Value_Should_Be_Less_Than_TwoPair" />
+    </UnitTest>
+    <UnitTest name="CardGrid_Diagonal_0_Should_Contain_2C5C" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="8e0e2e7d-6a31-2098-ecd4-d56feed2adae">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d7f0752d-24cb-48dd-9007-cc434fd46858" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_2_Card_SideAs_2C3C4C5C, HandTests" name="CardGrid_Diagonal_0_Should_Contain_2C5C" />
+    </UnitTest>
+    <UnitTest name="CardGrid_Row_1_Should_Contain_4C5C" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="57251946-0a3a-67be-dab1-d44dd7708e1f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3d6425f1-bc44-4446-aca3-7468ce750322" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_2_Card_SideAs_2C3C4C5C, HandTests" name="CardGrid_Row_1_Should_Contain_4C5C" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Less_Than_ThreeOfAKind" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="6fb63d00-3cc1-5e5f-32ff-b37711259c8a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="203b409b-3d18-4a09-9b73-9b8b2a527795" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Contain_Two_Sets_Of_Two_Cards_With_Same_Number, HandTests" name="Hand_Value_Should_Be_Less_Than_ThreeOfAKind" />
+    </UnitTest>
+    <UnitTest name="Should_Be_A_Club" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="5a0004de-e3b2-0c63-2b80-7727ff33c6c0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bea318ec-8eaa-472a-8f92-d8aa17746951" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_Ace_Of_Clubs_Created_With_AC_String_Representation, HandTests" name="Should_Be_A_Club" />
+    </UnitTest>
+    <UnitTest name="CardGrid_Should_Contain_Supplied_Cards" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="d2eed8c1-43c8-1890-39ae-8af08476fc34">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9812decc-cfc2-49d5-bb20-4528d16fc873" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_2_Card_Side_And_Cards_Supplied, HandTests" name="CardGrid_Should_Contain_Supplied_Cards" />
+    </UnitTest>
+    <UnitTest name="Hand_Should_Be_Evaluated_As_Straight" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="8a060e19-1efa-e6b6-dcdd-ef9580f264fe">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1ff86d11-2bb3-43c5-9a1f-444e7b03fb0a" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Are_Ordered_And_Contain_Ace_As_Low_Card, HandTests" name="Hand_Should_Be_Evaluated_As_Straight" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Less_Than_FullHouse" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="f913e145-5296-1a37-781d-785871ae82ec">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7de5fbde-2ca4-45e2-a7ae-86a3261a8ab7" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Are_Same_Suit, HandTests" name="Hand_Value_Should_Be_Less_Than_FullHouse" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Less_Than_Hand_With_Higher_Card" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="3c336782-8cec-4b43-2efb-98d1b0fb2a8d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1c26247b-743e-4724-ac77-693a703f6819" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_Hand_Contains_High_Card, HandTests" name="Hand_Value_Should_Be_Less_Than_Hand_With_Higher_Card" />
+    </UnitTest>
+    <UnitTest name="Hand_Should_Be_Evaluated_As_Two_Pair" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="49fce5bb-8fcd-7c3e-ad3a-9ba33cea1b31">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0ad15353-7ae0-4dd9-ad60-48e96727fe84" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Contain_Two_Sets_Of_Two_Cards_With_Same_Number, HandTests" name="Hand_Should_Be_Evaluated_As_Two_Pair" />
+    </UnitTest>
+    <UnitTest name="CardGrid_Row_1_Should_Contain_Two_Cards" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="bb37483b-a529-bf84-6698-6459aea88eb8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="79db0cc3-7a53-4493-b647-61690d35b5b6" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_2_Card_Side, HandTests" name="CardGrid_Row_1_Should_Contain_Two_Cards" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Less_Than_Pair" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="b0048178-be68-a832-612d-5261c5db842c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6398947f-90ff-4299-8c04-ff86c1cca86e" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Are_Ordered_And_Contain_Ace_As_High_Card_But_Two_As_Low_Card, HandTests" name="Hand_Value_Should_Be_Less_Than_Pair" />
+    </UnitTest>
+    <UnitTest name="CardGrid_ToString_Should_Be_Greater_Than_Count_Of_Cards_Times_Two" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="b5ac6191-ea74-5904-6fd5-f9c24755b90f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1dd175d3-b384-4806-9070-8c4a2e558628" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_5_Card_Side, HandTests" name="CardGrid_ToString_Should_Be_Greater_Than_Count_Of_Cards_Times_Two" />
+    </UnitTest>
+    <UnitTest name="CardGrid_Column_1_Should_Contain_3C5C" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="12d48ed8-66af-6420-e113-69598ae445e8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="15fa357a-bf77-4d9d-8cee-12bb14eaff55" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_2_Card_SideAs_2C3C4C5C, HandTests" name="CardGrid_Column_1_Should_Contain_3C5C" />
+    </UnitTest>
+    <UnitTest name="Hand_Should_Be_Evaluated_As_StraightFlush" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="aedc76a3-d341-572f-7a98-2915fdca4d47">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="59fef1b9-f117-410f-8b3c-b84a8977e18e" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Are_Same_Suit_And_Ordered, HandTests" name="Hand_Should_Be_Evaluated_As_StraightFlush" />
+    </UnitTest>
+    <UnitTest name="CardGrid_Diagonal_1_Should_Contain_Two_Cards" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="97de9357-766d-2b59-a14c-7aa39f375029">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="217e9217-cd9b-48ba-9278-cc9c48963e33" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_2_Card_Side, HandTests" name="CardGrid_Diagonal_1_Should_Contain_Two_Cards" />
+    </UnitTest>
+    <UnitTest name="Hand_Should_Be_Evaluated_As_Straight" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="3cd879f7-8c4a-f84f-bc3d-b5f462b324b9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="821cf040-f793-467c-a321-e41c37cb3748" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Are_Ordered_And_Contain_Ace_As_High_Card, HandTests" name="Hand_Should_Be_Evaluated_As_Straight" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Less_Than_FourOfAKind" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="35052205-9633-1027-ea90-7e6280d52f86">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e88c1e97-b2fc-4309-81a6-b771ac6d53f9" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Are_A_Set_Of_Three_And_A_Set_Of_Two, HandTests" name="Hand_Value_Should_Be_Less_Than_FourOfAKind" />
+    </UnitTest>
+    <OrderedTest name="handstestsinorder" storage="d:\funcode\simulatedannealing\handtests\tests\handstestsinorder.orderedtest" id="e25249d5-e6e9-4086-9af6-710017f90926">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="2147483647" id="7fa0c355-7a56-48ad-b167-f5fe2019ea47" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestLinks>
+        <TestLink id="b7419606-0b2e-f5d3-4bb7-e53f19de3306" name="Hand_Should_Be_Evaluated_As_HighCard" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="afbc79d8-0a8c-ff5e-0640-8ab8bf6f7303" name="Hand_Should_Be_Evaluated_As_One_Pair" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="49fce5bb-8fcd-7c3e-ad3a-9ba33cea1b31" name="Hand_Should_Be_Evaluated_As_Two_Pair" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="3edbb883-78ee-aa30-b14e-fb4ffd7458f2" name="Hand_Should_Be_Evaluated_As_ThreeOfAKind" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="8a060e19-1efa-e6b6-dcdd-ef9580f264fe" name="Hand_Should_Be_Evaluated_As_Straight" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="e3241f56-9bca-9503-0982-f4b5cb92fad6" name="Hand_Should_Be_Evaluated_As_Straight" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="3cd879f7-8c4a-f84f-bc3d-b5f462b324b9" name="Hand_Should_Be_Evaluated_As_Straight" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="4e281f8f-0cec-29b9-2b8e-d172419bd8a6" name="Hand_Should_Be_Evaluated_As_Flush" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="7e54e1bd-7fca-af84-b3e9-96babcbc038d" name="Hand_Should_Be_Evaluated_As_FullHouse" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="20346c60-ca48-7172-3a55-5ba254ed6955" name="Hand_Should_Be_Evaluated_As_FourOfAKind" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="aedc76a3-d341-572f-7a98-2915fdca4d47" name="Hand_Should_Be_Evaluated_As_StraightFlush" storage="..\bin\release\handtests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </OrderedTest>
+    <UnitTest name="Hand_Should_Be_Evaluated_As_Flush" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="4e281f8f-0cec-29b9-2b8e-d172419bd8a6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f5be67a2-4865-4797-8142-505b085c46c7" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Are_Same_Suit, HandTests" name="Hand_Should_Be_Evaluated_As_Flush" />
+    </UnitTest>
+    <UnitTest name="Should_Be_A_Hearts" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="f59ccced-bc0d-2a2d-9c96-dd2ce350ad6e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="450f987a-7a79-4a5b-91be-f47a18fe7036" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_Ten_Of_Hearts_Created_With_10H_String_Representation, HandTests" name="Should_Be_A_Hearts" />
+    </UnitTest>
+    <UnitTest name="Hand_Should_Be_Evaluated_As_High_Card" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="abce66d1-806c-f87b-b343-2061de16b088">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5d204108-317f-4ef9-a566-e1cafe485703" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Are_Ordered_And_Contain_Ace_As_High_Card_But_Two_As_Low_Card, HandTests" name="Hand_Should_Be_Evaluated_As_High_Card" />
+    </UnitTest>
+    <UnitTest name="Should_Be_Equal_To_Two" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="5ef6c664-f52f-5b0e-a25e-04a26dc99c7b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7e1bef36-8808-4cb1-b8d4-fdfb99f9d10b" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_Two_Of_Diamonds_Created_With_2D_String_Representation, HandTests" name="Should_Be_Equal_To_Two" />
+    </UnitTest>
+    <UnitTest name="Should_Be_Equal_To_Ace" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="914a7811-865d-ef65-0322-55db2c926d1c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f35307a0-8fd7-488f-b989-b6cc01be7f22" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_Ace_Of_Clubs_Created_With_AC_String_Representation, HandTests" name="Should_Be_Equal_To_Ace" />
+    </UnitTest>
+    <UnitTest name="Hand_Should_Be_Evaluated_As_FullHouse" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="7e54e1bd-7fca-af84-b3e9-96babcbc038d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0f1ae715-0deb-41d9-84dc-c1e8603c1e2c" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Are_A_Set_Of_Three_And_A_Set_Of_Two, HandTests" name="Hand_Should_Be_Evaluated_As_FullHouse" />
+    </UnitTest>
+    <UnitTest name="CardGrid_Row_0_Should_Contain_Two_Cards" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="2aca45e7-a091-b945-246c-8cf073bf386c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b49133d8-7ed2-419f-95c2-e8626be0a8d3" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_2_Card_Side, HandTests" name="CardGrid_Row_0_Should_Contain_Two_Cards" />
+    </UnitTest>
+    <UnitTest name="Hand_Should_Be_Evaluated_As_ThreeOfAKind" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="3edbb883-78ee-aa30-b14e-fb4ffd7458f2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ff0f67ca-d444-4892-b913-2842b17d99b9" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Contain_Three_Cards_With_Same_Number, HandTests" name="Hand_Should_Be_Evaluated_As_ThreeOfAKind" />
+    </UnitTest>
+    <UnitTest name="Hand_Should_Be_Evaluated_As_One_Pair" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="afbc79d8-0a8c-ff5e-0640-8ab8bf6f7303">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ab4d059b-23f7-4293-8fe9-c974f04ad11d" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Contain_Two_Cards_With_Same_Number, HandTests" name="Hand_Should_Be_Evaluated_As_One_Pair" />
+    </UnitTest>
+    <UnitTest name="Should_Be_A_Diamond" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="5631875c-2972-b4ab-f73d-78d307183220">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="dccfa17a-f3da-4411-98dc-011c5e7a62b4" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_Two_Of_Diamonds_Created_With_2D_String_Representation, HandTests" name="Should_Be_A_Diamond" />
+    </UnitTest>
+    <UnitTest name="Hand_Should_Be_Evaluated_As_FourOfAKind" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="20346c60-ca48-7172-3a55-5ba254ed6955">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b40e0aa2-b972-416e-a490-ddafe100daaf" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Contain_Four_Cards_With_Same_Number, HandTests" name="Hand_Should_Be_Evaluated_As_FourOfAKind" />
+    </UnitTest>
+    <UnitTest name="CardGrid_Diagonal_0_Should_Contain_Two_Cards" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="b3463fff-f0cb-0670-30c0-6a8ec5bb993a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="75142fdf-38ff-4492-a250-4915197afa15" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_2_Card_Side, HandTests" name="CardGrid_Diagonal_0_Should_Contain_Two_Cards" />
+    </UnitTest>
+    <UnitTest name="CardGrid_Should_Contain_4_Cards" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="051b669e-19a8-f3da-44da-a6f0a277be31">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3cc14c5e-72cc-4b29-a434-33f48c6af135" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_2_Card_Side_And_Cards_Supplied, HandTests" name="CardGrid_Should_Contain_4_Cards" />
+    </UnitTest>
+    <UnitTest name="CardGrid_Column_0_Should_Contain_Two_Cards" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="8161364f-1adf-8d74-cdf6-cfc02134a14d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="707cb174-0302-4397-83b9-6ff28d790986" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_2_Card_Side, HandTests" name="CardGrid_Column_0_Should_Contain_Two_Cards" />
+    </UnitTest>
+    <UnitTest name="Hand_Should_Be_Evaluated_As_HighCard" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="b7419606-0b2e-f5d3-4bb7-e53f19de3306">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="70e249d2-5dc9-45fd-b4a2-db62322c4fb1" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Contain_No_Sets_By_Color_Figure_Or_Order, HandTests" name="Hand_Should_Be_Evaluated_As_HighCard" />
+    </UnitTest>
+    <UnitTest name="CardGrid_Row_0_Should_Contain_2C3C" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="0874384f-5402-426a-80b3-1ad47eb7f0de">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7013eabc-20ec-4081-b9cc-61aee607b5d7" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_2_Card_SideAs_2C3C4C5C, HandTests" name="CardGrid_Row_0_Should_Contain_2C3C" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_More_Than_Hand_With_Lower_Card" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="2525a5d9-0a91-1abb-8e5b-f4a669494d56">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="613f5a98-5820-4363-83c4-68d38c75cac6" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_Hand_Contains_High_Card, HandTests" name="Hand_Value_Should_Be_More_Than_Hand_With_Lower_Card" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Less_Than_StraightFlush_Plus_One" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="a3a0bb1d-3295-473d-4ea8-cd914976c7e2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5a2976f3-9ca5-49d1-b4cc-c494a0bf7919" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Are_Same_Suit_And_Ordered, HandTests" name="Hand_Value_Should_Be_Less_Than_StraightFlush_Plus_One" />
+    </UnitTest>
+    <UnitTest name="Should_Be_Greater_Than_King" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="cd6a602a-75df-82c2-e301-608a27b419d9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="94ce8a63-3528-4d76-bc6a-758a36b48850" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_Ace_Compared, HandTests" name="Should_Be_Greater_Than_King" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Less_Than_Straight" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="4cbab556-4ac3-eff8-34bd-997f8d1d9872">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0e45cf57-96ec-4a57-857f-c499b4d68bf0" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Contain_Three_Cards_With_Same_Number, HandTests" name="Hand_Value_Should_Be_Less_Than_Straight" />
+    </UnitTest>
+    <UnitTest name="Hand_Should_Be_High_Card" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="87f15cc9-0e18-1342-f305-3323e5a7682d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b035c787-653b-4cd2-9587-2fffff87ae5a" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_Hand_Contains_High_Card, HandTests" name="Hand_Should_Be_High_Card" />
+    </UnitTest>
+    <UnitTest name="CardGrid_Diagonal_1_Should_Contain_3C4C" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="a6ad310a-e0f6-7387-9f35-a567212fdf16">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="643ddc5f-5aa0-4755-91e0-81fe62de8d03" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_2_Card_SideAs_2C3C4C5C, HandTests" name="CardGrid_Diagonal_1_Should_Contain_3C4C" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Less_Than_Flush" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="51be4986-3d39-8eef-faa1-16291af8e141">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="71e2de48-4909-496c-a87f-0927f0ccd443" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Are_Ordered_And_Dont_Contain_Ace, HandTests" name="Hand_Value_Should_Be_Less_Than_Flush" />
+    </UnitTest>
+    <UnitTest name="CardGrid_HandsValue_Should_Throw_Exception_On_NonRealWorld_Grid" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="8881fe0c-f434-85c2-6978-36e7c115a319">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d6fc4369-64bb-4661-acbd-72cf9497a534" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_2_Card_SideAs_2C3C4C5C, HandTests" name="CardGrid_HandsValue_Should_Throw_Exception_On_NonRealWorld_Grid" />
+    </UnitTest>
+    <UnitTest name="Should_Be_Equal_To_Ace" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="26789b8d-37b7-a85c-adc5-5b875efcb436">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4ced0b77-a874-424e-a1ba-010e8a2b0566" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_Ace_Compared, HandTests" name="Should_Be_Equal_To_Ace" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Less_Than_StraightFlush" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="212c4401-c788-fb06-6441-dd20364ab6f5">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7bddc1e5-0185-4445-bfc0-eb11e1072cfb" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Contain_Four_Cards_With_Same_Number, HandTests" name="Hand_Value_Should_Be_Less_Than_StraightFlush" />
+    </UnitTest>
+    <UnitTest name="Should_Be_Equal_To_Ten" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="458bec25-03bd-f792-c354-6f403c263f86">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="62224ed2-a00c-4d1b-8bcd-24a8f0a87fd3" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_Ten_Of_Hearts_Created_With_10H_String_Representation, HandTests" name="Should_Be_Equal_To_Ten" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Less_Than_Pair" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="af0aa33e-4896-ba80-442e-df9ca3e6925f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="50e79004-2bb2-4a9d-b4fd-ac8781b70cc7" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_Hand_Contains_High_Card, HandTests" name="Hand_Value_Should_Be_Less_Than_Pair" />
+    </UnitTest>
+    <UnitTest name="CardGrid_ToString_Should_Not_Be_Null" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="058287e2-eae9-5cbc-252f-9f30ae865e52">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4129e833-7cb5-4c92-9a89-01a738b82651" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_5_Card_Side, HandTests" name="CardGrid_ToString_Should_Not_Be_Null" />
+    </UnitTest>
+    <UnitTest name="CardGrid_Column_1_Should_Contain_Two_Cards" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="11140b3a-5ebf-9953-b7db-2025616b3029">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5f4b326d-1820-4058-9258-f689fb1d6642" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_2_Card_Side, HandTests" name="CardGrid_Column_1_Should_Contain_Two_Cards" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Less_Than_One_Pair" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="73f05544-c53e-f8fa-6806-67b8a8a61701">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="150ce8c5-b19c-4dd3-862b-3032b621acd4" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_Hand_Contains_High_Card, HandTests" name="Hand_Value_Should_Be_Less_Than_One_Pair" />
+    </UnitTest>
+    <UnitTest name="CardGrid_ToString_Should_Return_String" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="f06bfbba-6388-87d3-3673-a2e7ec09e670">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="513df7c5-3d15-4704-8d13-4181c1279797" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_5_Card_Side, HandTests" name="CardGrid_ToString_Should_Return_String" />
+    </UnitTest>
+    <UnitTest name="CardGrid_Should_Contain_25_Cards" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="7794b37a-7d59-3c63-dc76-1660473b8b41">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f06f309d-63b2-4ff6-a024-5bbcec963b9f" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_5_Card_Side, HandTests" name="CardGrid_Should_Contain_25_Cards" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Less_Than_Flush" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="2eadae0f-c969-b0ea-d2ba-afcda1112eca">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="cc862f99-29f8-4c71-a61a-1b9ecc6878c1" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PokerTest.When_5_Cards_Are_Ordered_And_Contain_Ace_As_High_Card, HandTests" name="Hand_Value_Should_Be_Less_Than_Flush" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Greater_Than_Lower_Pair_With_Higher_Insignificant_Cards" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="4c3e9fc8-1c5f-2adf-9207-64b667ab2e23">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5fb8e432-f135-426b-9dc9-5de78461dce5" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_Hand_Contains_Pair, HandTests" name="Hand_Value_Should_Be_Greater_Than_Lower_Pair_With_Higher_Insignificant_Cards" />
+    </UnitTest>
+    <UnitTest name="CardGrid_HandsValue_Should_Be_A_Double" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="9e566a6d-96ab-1715-9fc0-4793130e07ea">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="616c69c9-1e6d-47fc-839c-61624df32086" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Is_Permuted, HandTests" name="CardGrid_HandsValue_Should_Be_A_Double" />
+    </UnitTest>
+    <UnitTest name="CardGrid_Column_0_Should_Contain_2C4C" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="befb8e9b-0722-c544-a8c4-f6fff29d35a6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="94c40d02-9212-45ed-8ae3-d19b0b498b28" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_CardGrid_Instantiated_With_2_Card_SideAs_2C3C4C5C, HandTests" name="CardGrid_Column_0_Should_Contain_2C4C" />
+    </UnitTest>
+    <UnitTest name="Hand_Value_Should_Be_Same_As_Hand_With_Same_Figures" storage="d:\funcode\simulatedannealing\handtests\bin\release\handtests.dll" id="3c3de931-9395-9f79-0856-0d712395f304">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fe2daf32-0b2f-491b-8dd6-68085140e857" />
+      <TestMethod codeBase="D:\funcode\SimulatedAnnealing\HandTests\bin\Release\HandTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HandTests.Tests.When_Hand_Contains_High_Card, HandTests" name="Hand_Value_Should_Be_Same_As_Hand_With_Same_Figures" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e25249d5-e6e9-4086-9af6-710017f90926" executionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TestEntries>
+        <TestEntry testId="b7419606-0b2e-f5d3-4bb7-e53f19de3306" executionId="7b2d0227-f0dd-4eed-9c28-c2432ab1cfb8" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="afbc79d8-0a8c-ff5e-0640-8ab8bf6f7303" executionId="b4335a48-014b-479b-a515-33a4406940a9" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="49fce5bb-8fcd-7c3e-ad3a-9ba33cea1b31" executionId="18e8122f-2aaf-4e3b-9a81-c4d2365dd19a" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="3edbb883-78ee-aa30-b14e-fb4ffd7458f2" executionId="131ec7e1-da59-46f2-b1f2-08cb276a1617" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="8a060e19-1efa-e6b6-dcdd-ef9580f264fe" executionId="beccc0f1-6dc7-4865-9220-b5308a7316a7" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="e3241f56-9bca-9503-0982-f4b5cb92fad6" executionId="796c1180-70ca-47dd-9469-384b03b0891d" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="3cd879f7-8c4a-f84f-bc3d-b5f462b324b9" executionId="8fe229f2-7af6-4526-ab08-9aef38f6bd02" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="4e281f8f-0cec-29b9-2b8e-d172419bd8a6" executionId="00ab2bb9-8a1c-47cc-a019-7cfe7c9058de" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="7e54e1bd-7fca-af84-b3e9-96babcbc038d" executionId="bf705ede-34be-4667-b4e5-0e3cf5132c8a" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="20346c60-ca48-7172-3a55-5ba254ed6955" executionId="8b5d6c4f-e75f-40bc-a835-f0bdedc179a9" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="aedc76a3-d341-572f-7a98-2915fdca4d47" executionId="4d6f969e-481d-4707-9ff7-c412ef451247" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+      </TestEntries>
+    </TestEntry>
+    <TestEntry testId="26789b8d-37b7-a85c-adc5-5b875efcb436" executionId="4ced0b77-a874-424e-a1ba-010e8a2b0566" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd6a602a-75df-82c2-e301-608a27b419d9" executionId="94ce8a63-3528-4d76-bc6a-758a36b48850" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="914a7811-865d-ef65-0322-55db2c926d1c" executionId="f35307a0-8fd7-488f-b989-b6cc01be7f22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a0004de-e3b2-0c63-2b80-7727ff33c6c0" executionId="bea318ec-8eaa-472a-8f92-d8aa17746951" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ef6c664-f52f-5b0e-a25e-04a26dc99c7b" executionId="7e1bef36-8808-4cb1-b8d4-fdfb99f9d10b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5631875c-2972-b4ab-f73d-78d307183220" executionId="dccfa17a-f3da-4411-98dc-011c5e7a62b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="458bec25-03bd-f792-c354-6f403c263f86" executionId="62224ed2-a00c-4d1b-8bcd-24a8f0a87fd3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f59ccced-bc0d-2a2d-9c96-dd2ce350ad6e" executionId="450f987a-7a79-4a5b-91be-f47a18fe7036" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7794b37a-7d59-3c63-dc76-1660473b8b41" executionId="f06f309d-63b2-4ff6-a024-5bbcec963b9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f06bfbba-6388-87d3-3673-a2e7ec09e670" executionId="513df7c5-3d15-4704-8d13-4181c1279797" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="058287e2-eae9-5cbc-252f-9f30ae865e52" executionId="4129e833-7cb5-4c92-9a89-01a738b82651" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5ac6191-ea74-5904-6fd5-f9c24755b90f" executionId="1dd175d3-b384-4806-9070-8c4a2e558628" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="051b669e-19a8-f3da-44da-a6f0a277be31" executionId="3cc14c5e-72cc-4b29-a434-33f48c6af135" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2eed8c1-43c8-1890-39ae-8af08476fc34" executionId="9812decc-cfc2-49d5-bb20-4528d16fc873" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8161364f-1adf-8d74-cdf6-cfc02134a14d" executionId="707cb174-0302-4397-83b9-6ff28d790986" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11140b3a-5ebf-9953-b7db-2025616b3029" executionId="5f4b326d-1820-4058-9258-f689fb1d6642" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2aca45e7-a091-b945-246c-8cf073bf386c" executionId="b49133d8-7ed2-419f-95c2-e8626be0a8d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb37483b-a529-bf84-6698-6459aea88eb8" executionId="79db0cc3-7a53-4493-b647-61690d35b5b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3463fff-f0cb-0670-30c0-6a8ec5bb993a" executionId="75142fdf-38ff-4492-a250-4915197afa15" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97de9357-766d-2b59-a14c-7aa39f375029" executionId="217e9217-cd9b-48ba-9278-cc9c48963e33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="befb8e9b-0722-c544-a8c4-f6fff29d35a6" executionId="94c40d02-9212-45ed-8ae3-d19b0b498b28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12d48ed8-66af-6420-e113-69598ae445e8" executionId="15fa357a-bf77-4d9d-8cee-12bb14eaff55" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0874384f-5402-426a-80b3-1ad47eb7f0de" executionId="7013eabc-20ec-4081-b9cc-61aee607b5d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="57251946-0a3a-67be-dab1-d44dd7708e1f" executionId="3d6425f1-bc44-4446-aca3-7468ce750322" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e0e2e7d-6a31-2098-ecd4-d56feed2adae" executionId="d7f0752d-24cb-48dd-9007-cc434fd46858" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6ad310a-e0f6-7387-9f35-a567212fdf16" executionId="643ddc5f-5aa0-4755-91e0-81fe62de8d03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8881fe0c-f434-85c2-6978-36e7c115a319" executionId="d6fc4369-64bb-4661-acbd-72cf9497a534" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afbc79d8-0a8c-ff5e-0640-8ab8bf6f7303" executionId="ab4d059b-23f7-4293-8fe9-c974f04ad11d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97fde04c-afc2-2d32-3e8d-8673abe26654" executionId="c0102ee5-ee59-47a8-8725-abd35a4b5cce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49fce5bb-8fcd-7c3e-ad3a-9ba33cea1b31" executionId="0ad15353-7ae0-4dd9-ad60-48e96727fe84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6fb63d00-3cc1-5e5f-32ff-b37711259c8a" executionId="203b409b-3d18-4a09-9b73-9b8b2a527795" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3edbb883-78ee-aa30-b14e-fb4ffd7458f2" executionId="ff0f67ca-d444-4892-b913-2842b17d99b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4cbab556-4ac3-eff8-34bd-997f8d1d9872" executionId="0e45cf57-96ec-4a57-857f-c499b4d68bf0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e54e1bd-7fca-af84-b3e9-96babcbc038d" executionId="0f1ae715-0deb-41d9-84dc-c1e8603c1e2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35052205-9633-1027-ea90-7e6280d52f86" executionId="e88c1e97-b2fc-4309-81a6-b771ac6d53f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e281f8f-0cec-29b9-2b8e-d172419bd8a6" executionId="f5be67a2-4865-4797-8142-505b085c46c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f913e145-5296-1a37-781d-785871ae82ec" executionId="7de5fbde-2ca4-45e2-a7ae-86a3261a8ab7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aedc76a3-d341-572f-7a98-2915fdca4d47" executionId="59fef1b9-f117-410f-8b3c-b84a8977e18e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3a0bb1d-3295-473d-4ea8-cd914976c7e2" executionId="5a2976f3-9ca5-49d1-b4cc-c494a0bf7919" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3241f56-9bca-9503-0982-f4b5cb92fad6" executionId="3612bbe6-9040-4207-a79e-aca309fc82e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51be4986-3d39-8eef-faa1-16291af8e141" executionId="71e2de48-4909-496c-a87f-0927f0ccd443" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a060e19-1efa-e6b6-dcdd-ef9580f264fe" executionId="1ff86d11-2bb3-43c5-9a1f-444e7b03fb0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4cec7b43-55a9-f57f-16e8-c2ab02743f72" executionId="9e014c45-0e6e-4b68-a860-b1061c574e2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cd879f7-8c4a-f84f-bc3d-b5f462b324b9" executionId="821cf040-f793-467c-a321-e41c37cb3748" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2eadae0f-c969-b0ea-d2ba-afcda1112eca" executionId="cc862f99-29f8-4c71-a61a-1b9ecc6878c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abce66d1-806c-f87b-b343-2061de16b088" executionId="5d204108-317f-4ef9-a566-e1cafe485703" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0048178-be68-a832-612d-5261c5db842c" executionId="6398947f-90ff-4299-8c04-ff86c1cca86e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20346c60-ca48-7172-3a55-5ba254ed6955" executionId="b40e0aa2-b972-416e-a490-ddafe100daaf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="212c4401-c788-fb06-6441-dd20364ab6f5" executionId="7bddc1e5-0185-4445-bfc0-eb11e1072cfb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7419606-0b2e-f5d3-4bb7-e53f19de3306" executionId="70e249d2-5dc9-45fd-b4a2-db62322c4fb1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87f15cc9-0e18-1342-f305-3323e5a7682d" executionId="b035c787-653b-4cd2-9587-2fffff87ae5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af0aa33e-4896-ba80-442e-df9ca3e6925f" executionId="50e79004-2bb2-4a9d-b4fd-ac8781b70cc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73f05544-c53e-f8fa-6806-67b8a8a61701" executionId="150ce8c5-b19c-4dd3-862b-3032b621acd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c336782-8cec-4b43-2efb-98d1b0fb2a8d" executionId="1c26247b-743e-4724-ac77-693a703f6819" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2525a5d9-0a91-1abb-8e5b-f4a669494d56" executionId="613f5a98-5820-4363-83c4-68d38c75cac6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c3de931-9395-9f79-0856-0d712395f304" executionId="fe2daf32-0b2f-491b-8dd6-68085140e857" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c3e9fc8-1c5f-2adf-9207-64b667ab2e23" executionId="5fb8e432-f135-426b-9dc9-5de78461dce5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e566a6d-96ab-1715-9fc0-4793130e07ea" executionId="616c69c9-1e6d-47fc-839c-61624df32086" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <TestResultAggregation executionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testId="e25249d5-e6e9-4086-9af6-710017f90926" testName="handstestsinorder" computerName="PUTANAMEHERE" duration="00:00:01.1555882" startTime="2010-05-19T18:46:19.5000000-06:00" endTime="2010-05-19T18:46:20.6875000-06:00" testType="ec4800e8-40e5-4ab3-8510-b8bf29b1904d" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="11" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="7b2d0227-f0dd-4eed-9c28-c2432ab1cfb8" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testId="b7419606-0b2e-f5d3-4bb7-e53f19de3306" testName="Hand_Should_Be_Evaluated_As_HighCard" computerName="PUTANAMEHERE" duration="00:00:00.1558072" startTime="2010-05-19T18:46:19.5312500-06:00" endTime="2010-05-19T18:46:20.6093750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="b4335a48-014b-479b-a515-33a4406940a9" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testId="afbc79d8-0a8c-ff5e-0640-8ab8bf6f7303" testName="Hand_Should_Be_Evaluated_As_One_Pair" computerName="PUTANAMEHERE" duration="00:00:00.0012596" startTime="2010-05-19T18:46:20.6093750-06:00" endTime="2010-05-19T18:46:20.6250000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="18e8122f-2aaf-4e3b-9a81-c4d2365dd19a" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testId="49fce5bb-8fcd-7c3e-ad3a-9ba33cea1b31" testName="Hand_Should_Be_Evaluated_As_Two_Pair" computerName="PUTANAMEHERE" duration="00:00:00.0013537" startTime="2010-05-19T18:46:20.6250000-06:00" endTime="2010-05-19T18:46:20.6250000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="131ec7e1-da59-46f2-b1f2-08cb276a1617" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testId="3edbb883-78ee-aa30-b14e-fb4ffd7458f2" testName="Hand_Should_Be_Evaluated_As_ThreeOfAKind" computerName="PUTANAMEHERE" duration="00:00:00.0015398" startTime="2010-05-19T18:46:20.6250000-06:00" endTime="2010-05-19T18:46:20.6406250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="beccc0f1-6dc7-4865-9220-b5308a7316a7" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testId="8a060e19-1efa-e6b6-dcdd-ef9580f264fe" testName="Hand_Should_Be_Evaluated_As_Straight" computerName="PUTANAMEHERE" duration="00:00:00.0027835" startTime="2010-05-19T18:46:20.6406250-06:00" endTime="2010-05-19T18:46:20.6406250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="796c1180-70ca-47dd-9469-384b03b0891d" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testId="e3241f56-9bca-9503-0982-f4b5cb92fad6" testName="Hand_Should_Be_Evaluated_As_Straight" computerName="PUTANAMEHERE" duration="00:00:00.0017008" startTime="2010-05-19T18:46:20.6406250-06:00" endTime="2010-05-19T18:46:20.6562500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="8fe229f2-7af6-4526-ab08-9aef38f6bd02" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testId="3cd879f7-8c4a-f84f-bc3d-b5f462b324b9" testName="Hand_Should_Be_Evaluated_As_Straight" computerName="PUTANAMEHERE" duration="00:00:00.0012497" startTime="2010-05-19T18:46:20.6562500-06:00" endTime="2010-05-19T18:46:20.6562500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="00ab2bb9-8a1c-47cc-a019-7cfe7c9058de" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testId="4e281f8f-0cec-29b9-2b8e-d172419bd8a6" testName="Hand_Should_Be_Evaluated_As_Flush" computerName="PUTANAMEHERE" duration="00:00:00.0021406" startTime="2010-05-19T18:46:20.6562500-06:00" endTime="2010-05-19T18:46:20.6718750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="bf705ede-34be-4667-b4e5-0e3cf5132c8a" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testId="7e54e1bd-7fca-af84-b3e9-96babcbc038d" testName="Hand_Should_Be_Evaluated_As_FullHouse" computerName="PUTANAMEHERE" duration="00:00:00.0012962" startTime="2010-05-19T18:46:20.6718750-06:00" endTime="2010-05-19T18:46:20.6718750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="8b5d6c4f-e75f-40bc-a835-f0bdedc179a9" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testId="20346c60-ca48-7172-3a55-5ba254ed6955" testName="Hand_Should_Be_Evaluated_As_FourOfAKind" computerName="PUTANAMEHERE" duration="00:00:00.0012772" startTime="2010-05-19T18:46:20.6718750-06:00" endTime="2010-05-19T18:46:20.6875000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="4d6f969e-481d-4707-9ff7-c412ef451247" parentExecutionId="7fa0c355-7a56-48ad-b167-f5fe2019ea47" testId="aedc76a3-d341-572f-7a98-2915fdca4d47" testName="Hand_Should_Be_Evaluated_As_StraightFlush" computerName="PUTANAMEHERE" duration="00:00:00.0012457" startTime="2010-05-19T18:46:20.6875000-06:00" endTime="2010-05-19T18:46:20.6875000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+          <Output>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </TestResultAggregation>
+    <UnitTestResult executionId="4ced0b77-a874-424e-a1ba-010e8a2b0566" testId="26789b8d-37b7-a85c-adc5-5b875efcb436" testName="Should_Be_Equal_To_Ace" computerName="PUTANAMEHERE" duration="00:00:00.0004961" startTime="2010-05-19T18:46:20.6875000-06:00" endTime="2010-05-19T18:46:20.6875000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="94ce8a63-3528-4d76-bc6a-758a36b48850" testId="cd6a602a-75df-82c2-e301-608a27b419d9" testName="Should_Be_Greater_Than_King" computerName="PUTANAMEHERE" duration="00:00:00.0007031" startTime="2010-05-19T18:46:20.6875000-06:00" endTime="2010-05-19T18:46:20.7031250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f35307a0-8fd7-488f-b989-b6cc01be7f22" testId="914a7811-865d-ef65-0322-55db2c926d1c" testName="Should_Be_Equal_To_Ace" computerName="PUTANAMEHERE" duration="00:00:00.0061778" startTime="2010-05-19T18:46:20.7031250-06:00" endTime="2010-05-19T18:46:20.7031250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bea318ec-8eaa-472a-8f92-d8aa17746951" testId="5a0004de-e3b2-0c63-2b80-7727ff33c6c0" testName="Should_Be_A_Club" computerName="PUTANAMEHERE" duration="00:00:00.0002830" startTime="2010-05-19T18:46:20.7187500-06:00" endTime="2010-05-19T18:46:20.7187500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7e1bef36-8808-4cb1-b8d4-fdfb99f9d10b" testId="5ef6c664-f52f-5b0e-a25e-04a26dc99c7b" testName="Should_Be_Equal_To_Two" computerName="PUTANAMEHERE" duration="00:00:00.0004049" startTime="2010-05-19T18:46:20.7187500-06:00" endTime="2010-05-19T18:46:20.7187500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dccfa17a-f3da-4411-98dc-011c5e7a62b4" testId="5631875c-2972-b4ab-f73d-78d307183220" testName="Should_Be_A_Diamond" computerName="PUTANAMEHERE" duration="00:00:00.0002677" startTime="2010-05-19T18:46:20.7187500-06:00" endTime="2010-05-19T18:46:20.7187500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="62224ed2-a00c-4d1b-8bcd-24a8f0a87fd3" testId="458bec25-03bd-f792-c354-6f403c263f86" testName="Should_Be_Equal_To_Ten" computerName="PUTANAMEHERE" duration="00:00:00.0005674" startTime="2010-05-19T18:46:20.7187500-06:00" endTime="2010-05-19T18:46:20.7187500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="450f987a-7a79-4a5b-91be-f47a18fe7036" testId="f59ccced-bc0d-2a2d-9c96-dd2ce350ad6e" testName="Should_Be_A_Hearts" computerName="PUTANAMEHERE" duration="00:00:00.0002682" startTime="2010-05-19T18:46:20.7343750-06:00" endTime="2010-05-19T18:46:20.7343750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f06f309d-63b2-4ff6-a024-5bbcec963b9f" testId="7794b37a-7d59-3c63-dc76-1660473b8b41" testName="CardGrid_Should_Contain_25_Cards" computerName="PUTANAMEHERE" duration="00:00:00.0263720" startTime="2010-05-19T18:46:20.7343750-06:00" endTime="2010-05-19T18:46:20.7656250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="513df7c5-3d15-4704-8d13-4181c1279797" testId="f06bfbba-6388-87d3-3673-a2e7ec09e670" testName="CardGrid_ToString_Should_Return_String" computerName="PUTANAMEHERE" duration="00:00:00.0096226" startTime="2010-05-19T18:46:20.7656250-06:00" endTime="2010-05-19T18:46:20.7656250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4129e833-7cb5-4c92-9a89-01a738b82651" testId="058287e2-eae9-5cbc-252f-9f30ae865e52" testName="CardGrid_ToString_Should_Not_Be_Null" computerName="PUTANAMEHERE" duration="00:00:00.0026543" startTime="2010-05-19T18:46:20.7812500-06:00" endTime="2010-05-19T18:46:20.7812500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1dd175d3-b384-4806-9070-8c4a2e558628" testId="b5ac6191-ea74-5904-6fd5-f9c24755b90f" testName="CardGrid_ToString_Should_Be_Greater_Than_Count_Of_Cards_Times_Two" computerName="PUTANAMEHERE" duration="00:00:00.0039238" startTime="2010-05-19T18:46:20.7812500-06:00" endTime="2010-05-19T18:46:20.7812500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3cc14c5e-72cc-4b29-a434-33f48c6af135" testId="051b669e-19a8-f3da-44da-a6f0a277be31" testName="CardGrid_Should_Contain_4_Cards" computerName="PUTANAMEHERE" duration="00:00:00.0010546" startTime="2010-05-19T18:46:20.7812500-06:00" endTime="2010-05-19T18:46:20.7968750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9812decc-cfc2-49d5-bb20-4528d16fc873" testId="d2eed8c1-43c8-1890-39ae-8af08476fc34" testName="CardGrid_Should_Contain_Supplied_Cards" computerName="PUTANAMEHERE" duration="00:00:00.0002252" startTime="2010-05-19T18:46:20.7968750-06:00" endTime="2010-05-19T18:46:20.7968750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="707cb174-0302-4397-83b9-6ff28d790986" testId="8161364f-1adf-8d74-cdf6-cfc02134a14d" testName="CardGrid_Column_0_Should_Contain_Two_Cards" computerName="PUTANAMEHERE" duration="00:00:00.0050525" startTime="2010-05-19T18:46:20.7968750-06:00" endTime="2010-05-19T18:46:20.7968750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f4b326d-1820-4058-9258-f689fb1d6642" testId="11140b3a-5ebf-9953-b7db-2025616b3029" testName="CardGrid_Column_1_Should_Contain_Two_Cards" computerName="PUTANAMEHERE" duration="00:00:00.0007020" startTime="2010-05-19T18:46:20.8125000-06:00" endTime="2010-05-19T18:46:20.8125000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b49133d8-7ed2-419f-95c2-e8626be0a8d3" testId="2aca45e7-a091-b945-246c-8cf073bf386c" testName="CardGrid_Row_0_Should_Contain_Two_Cards" computerName="PUTANAMEHERE" duration="00:00:00.0012583" startTime="2010-05-19T18:46:20.8125000-06:00" endTime="2010-05-19T18:46:20.8125000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="79db0cc3-7a53-4493-b647-61690d35b5b6" testId="bb37483b-a529-bf84-6698-6459aea88eb8" testName="CardGrid_Row_1_Should_Contain_Two_Cards" computerName="PUTANAMEHERE" duration="00:00:00.0006872" startTime="2010-05-19T18:46:20.8125000-06:00" endTime="2010-05-19T18:46:20.8125000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="75142fdf-38ff-4492-a250-4915197afa15" testId="b3463fff-f0cb-0670-30c0-6a8ec5bb993a" testName="CardGrid_Diagonal_0_Should_Contain_Two_Cards" computerName="PUTANAMEHERE" duration="00:00:00.0007464" startTime="2010-05-19T18:46:20.8125000-06:00" endTime="2010-05-19T18:46:20.8281250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="217e9217-cd9b-48ba-9278-cc9c48963e33" testId="97de9357-766d-2b59-a14c-7aa39f375029" testName="CardGrid_Diagonal_1_Should_Contain_Two_Cards" computerName="PUTANAMEHERE" duration="00:00:00.0008294" startTime="2010-05-19T18:46:20.8281250-06:00" endTime="2010-05-19T18:46:20.8281250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="94c40d02-9212-45ed-8ae3-d19b0b498b28" testId="befb8e9b-0722-c544-a8c4-f6fff29d35a6" testName="CardGrid_Column_0_Should_Contain_2C4C" computerName="PUTANAMEHERE" duration="00:00:00.0016977" startTime="2010-05-19T18:46:20.8281250-06:00" endTime="2010-05-19T18:46:20.8437500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="15fa357a-bf77-4d9d-8cee-12bb14eaff55" testId="12d48ed8-66af-6420-e113-69598ae445e8" testName="CardGrid_Column_1_Should_Contain_3C5C" computerName="PUTANAMEHERE" duration="00:00:00.0009509" startTime="2010-05-19T18:46:20.8437500-06:00" endTime="2010-05-19T18:46:20.8437500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7013eabc-20ec-4081-b9cc-61aee607b5d7" testId="0874384f-5402-426a-80b3-1ad47eb7f0de" testName="CardGrid_Row_0_Should_Contain_2C3C" computerName="PUTANAMEHERE" duration="00:00:00.0009248" startTime="2010-05-19T18:46:20.8437500-06:00" endTime="2010-05-19T18:46:20.8437500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3d6425f1-bc44-4446-aca3-7468ce750322" testId="57251946-0a3a-67be-dab1-d44dd7708e1f" testName="CardGrid_Row_1_Should_Contain_4C5C" computerName="PUTANAMEHERE" duration="00:00:00.0014672" startTime="2010-05-19T18:46:20.8437500-06:00" endTime="2010-05-19T18:46:20.8437500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d7f0752d-24cb-48dd-9007-cc434fd46858" testId="8e0e2e7d-6a31-2098-ecd4-d56feed2adae" testName="CardGrid_Diagonal_0_Should_Contain_2C5C" computerName="PUTANAMEHERE" duration="00:00:00.0009259" startTime="2010-05-19T18:46:20.8437500-06:00" endTime="2010-05-19T18:46:20.8593750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="643ddc5f-5aa0-4755-91e0-81fe62de8d03" testId="a6ad310a-e0f6-7387-9f35-a567212fdf16" testName="CardGrid_Diagonal_1_Should_Contain_3C4C" computerName="PUTANAMEHERE" duration="00:00:00.0014312" startTime="2010-05-19T18:46:20.8593750-06:00" endTime="2010-05-19T18:46:20.8593750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d6fc4369-64bb-4661-acbd-72cf9497a534" testId="8881fe0c-f434-85c2-6978-36e7c115a319" testName="CardGrid_HandsValue_Should_Throw_Exception_On_NonRealWorld_Grid" computerName="PUTANAMEHERE" duration="00:00:00.0006692" startTime="2010-05-19T18:46:20.8593750-06:00" endTime="2010-05-19T18:46:20.8593750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ab4d059b-23f7-4293-8fe9-c974f04ad11d" testId="afbc79d8-0a8c-ff5e-0640-8ab8bf6f7303" testName="Hand_Should_Be_Evaluated_As_One_Pair" computerName="PUTANAMEHERE" duration="00:00:00.0004003" startTime="2010-05-19T18:46:20.8593750-06:00" endTime="2010-05-19T18:46:20.8750000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c0102ee5-ee59-47a8-8725-abd35a4b5cce" testId="97fde04c-afc2-2d32-3e8d-8673abe26654" testName="Hand_Value_Should_Be_Less_Than_TwoPair" computerName="PUTANAMEHERE" duration="00:00:00.0004045" startTime="2010-05-19T18:46:20.8750000-06:00" endTime="2010-05-19T18:46:20.8750000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0ad15353-7ae0-4dd9-ad60-48e96727fe84" testId="49fce5bb-8fcd-7c3e-ad3a-9ba33cea1b31" testName="Hand_Should_Be_Evaluated_As_Two_Pair" computerName="PUTANAMEHERE" duration="00:00:00.0007267" startTime="2010-05-19T18:46:20.8750000-06:00" endTime="2010-05-19T18:46:20.8750000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="203b409b-3d18-4a09-9b73-9b8b2a527795" testId="6fb63d00-3cc1-5e5f-32ff-b37711259c8a" testName="Hand_Value_Should_Be_Less_Than_ThreeOfAKind" computerName="PUTANAMEHERE" duration="00:00:00.0010030" startTime="2010-05-19T18:46:20.8750000-06:00" endTime="2010-05-19T18:46:20.8906250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ff0f67ca-d444-4892-b913-2842b17d99b9" testId="3edbb883-78ee-aa30-b14e-fb4ffd7458f2" testName="Hand_Should_Be_Evaluated_As_ThreeOfAKind" computerName="PUTANAMEHERE" duration="00:00:00.0007471" startTime="2010-05-19T18:46:20.8906250-06:00" endTime="2010-05-19T18:46:20.8906250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0e45cf57-96ec-4a57-857f-c499b4d68bf0" testId="4cbab556-4ac3-eff8-34bd-997f8d1d9872" testName="Hand_Value_Should_Be_Less_Than_Straight" computerName="PUTANAMEHERE" duration="00:00:00.0002866" startTime="2010-05-19T18:46:20.8906250-06:00" endTime="2010-05-19T18:46:20.8906250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0f1ae715-0deb-41d9-84dc-c1e8603c1e2c" testId="7e54e1bd-7fca-af84-b3e9-96babcbc038d" testName="Hand_Should_Be_Evaluated_As_FullHouse" computerName="PUTANAMEHERE" duration="00:00:00.0000935" startTime="2010-05-19T18:46:20.8906250-06:00" endTime="2010-05-19T18:46:20.9062500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e88c1e97-b2fc-4309-81a6-b771ac6d53f9" testId="35052205-9633-1027-ea90-7e6280d52f86" testName="Hand_Value_Should_Be_Less_Than_FourOfAKind" computerName="PUTANAMEHERE" duration="00:00:00.0002901" startTime="2010-05-19T18:46:20.9062500-06:00" endTime="2010-05-19T18:46:20.9062500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f5be67a2-4865-4797-8142-505b085c46c7" testId="4e281f8f-0cec-29b9-2b8e-d172419bd8a6" testName="Hand_Should_Be_Evaluated_As_Flush" computerName="PUTANAMEHERE" duration="00:00:00.0001139" startTime="2010-05-19T18:46:20.9062500-06:00" endTime="2010-05-19T18:46:20.9062500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7de5fbde-2ca4-45e2-a7ae-86a3261a8ab7" testId="f913e145-5296-1a37-781d-785871ae82ec" testName="Hand_Value_Should_Be_Less_Than_FullHouse" computerName="PUTANAMEHERE" duration="00:00:00.0004593" startTime="2010-05-19T18:46:20.9062500-06:00" endTime="2010-05-19T18:46:20.9062500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="59fef1b9-f117-410f-8b3c-b84a8977e18e" testId="aedc76a3-d341-572f-7a98-2915fdca4d47" testName="Hand_Should_Be_Evaluated_As_StraightFlush" computerName="PUTANAMEHERE" duration="00:00:00.0001287" startTime="2010-05-19T18:46:20.9062500-06:00" endTime="2010-05-19T18:46:20.9218750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5a2976f3-9ca5-49d1-b4cc-c494a0bf7919" testId="a3a0bb1d-3295-473d-4ea8-cd914976c7e2" testName="Hand_Value_Should_Be_Less_Than_StraightFlush_Plus_One" computerName="PUTANAMEHERE" duration="00:00:00.0006259" startTime="2010-05-19T18:46:20.9218750-06:00" endTime="2010-05-19T18:46:20.9218750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3612bbe6-9040-4207-a79e-aca309fc82e9" testId="e3241f56-9bca-9503-0982-f4b5cb92fad6" testName="Hand_Should_Be_Evaluated_As_Straight" computerName="PUTANAMEHERE" duration="00:00:00.0001173" startTime="2010-05-19T18:46:20.9218750-06:00" endTime="2010-05-19T18:46:20.9218750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="71e2de48-4909-496c-a87f-0927f0ccd443" testId="51be4986-3d39-8eef-faa1-16291af8e141" testName="Hand_Value_Should_Be_Less_Than_Flush" computerName="PUTANAMEHERE" duration="00:00:00.0003169" startTime="2010-05-19T18:46:20.9218750-06:00" endTime="2010-05-19T18:46:20.9218750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1ff86d11-2bb3-43c5-9a1f-444e7b03fb0a" testId="8a060e19-1efa-e6b6-dcdd-ef9580f264fe" testName="Hand_Should_Be_Evaluated_As_Straight" computerName="PUTANAMEHERE" duration="00:00:00.0001133" startTime="2010-05-19T18:46:20.9375000-06:00" endTime="2010-05-19T18:46:20.9375000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9e014c45-0e6e-4b68-a860-b1061c574e2b" testId="4cec7b43-55a9-f57f-16e8-c2ab02743f72" testName="Hand_Value_Should_Be_Less_Than_Flush" computerName="PUTANAMEHERE" duration="00:00:00.0003286" startTime="2010-05-19T18:46:20.9375000-06:00" endTime="2010-05-19T18:46:20.9375000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="821cf040-f793-467c-a321-e41c37cb3748" testId="3cd879f7-8c4a-f84f-bc3d-b5f462b324b9" testName="Hand_Should_Be_Evaluated_As_Straight" computerName="PUTANAMEHERE" duration="00:00:00.0001307" startTime="2010-05-19T18:46:20.9375000-06:00" endTime="2010-05-19T18:46:20.9375000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cc862f99-29f8-4c71-a61a-1b9ecc6878c1" testId="2eadae0f-c969-b0ea-d2ba-afcda1112eca" testName="Hand_Value_Should_Be_Less_Than_Flush" computerName="PUTANAMEHERE" duration="00:00:00.0003205" startTime="2010-05-19T18:46:20.9375000-06:00" endTime="2010-05-19T18:46:20.9375000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5d204108-317f-4ef9-a566-e1cafe485703" testId="abce66d1-806c-f87b-b343-2061de16b088" testName="Hand_Should_Be_Evaluated_As_High_Card" computerName="PUTANAMEHERE" duration="00:00:00.0013967" startTime="2010-05-19T18:46:20.9531250-06:00" endTime="2010-05-19T18:46:20.9531250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6398947f-90ff-4299-8c04-ff86c1cca86e" testId="b0048178-be68-a832-612d-5261c5db842c" testName="Hand_Value_Should_Be_Less_Than_Pair" computerName="PUTANAMEHERE" duration="00:00:00.0003729" startTime="2010-05-19T18:46:20.9531250-06:00" endTime="2010-05-19T18:46:20.9531250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b40e0aa2-b972-416e-a490-ddafe100daaf" testId="20346c60-ca48-7172-3a55-5ba254ed6955" testName="Hand_Should_Be_Evaluated_As_FourOfAKind" computerName="PUTANAMEHERE" duration="00:00:00.0000961" startTime="2010-05-19T18:46:20.9531250-06:00" endTime="2010-05-19T18:46:20.9531250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7bddc1e5-0185-4445-bfc0-eb11e1072cfb" testId="212c4401-c788-fb06-6441-dd20364ab6f5" testName="Hand_Value_Should_Be_Less_Than_StraightFlush" computerName="PUTANAMEHERE" duration="00:00:00.0003248" startTime="2010-05-19T18:46:20.9531250-06:00" endTime="2010-05-19T18:46:20.9687500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="70e249d2-5dc9-45fd-b4a2-db62322c4fb1" testId="b7419606-0b2e-f5d3-4bb7-e53f19de3306" testName="Hand_Should_Be_Evaluated_As_HighCard" computerName="PUTANAMEHERE" duration="00:00:00.0001168" startTime="2010-05-19T18:46:20.9687500-06:00" endTime="2010-05-19T18:46:20.9687500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b035c787-653b-4cd2-9587-2fffff87ae5a" testId="87f15cc9-0e18-1342-f305-3323e5a7682d" testName="Hand_Should_Be_High_Card" computerName="PUTANAMEHERE" duration="00:00:00.0011411" startTime="2010-05-19T18:46:20.9687500-06:00" endTime="2010-05-19T18:46:20.9687500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="50e79004-2bb2-4a9d-b4fd-ac8781b70cc7" testId="af0aa33e-4896-ba80-442e-df9ca3e6925f" testName="Hand_Value_Should_Be_Less_Than_Pair" computerName="PUTANAMEHERE" duration="00:00:00.0003833" startTime="2010-05-19T18:46:20.9687500-06:00" endTime="2010-05-19T18:46:20.9687500-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="150ce8c5-b19c-4dd3-862b-3032b621acd4" testId="73f05544-c53e-f8fa-6806-67b8a8a61701" testName="Hand_Value_Should_Be_Less_Than_One_Pair" computerName="PUTANAMEHERE" duration="00:00:00.0038984" startTime="2010-05-19T18:46:20.9843750-06:00" endTime="2010-05-19T18:46:20.9843750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1c26247b-743e-4724-ac77-693a703f6819" testId="3c336782-8cec-4b43-2efb-98d1b0fb2a8d" testName="Hand_Value_Should_Be_Less_Than_Hand_With_Higher_Card" computerName="PUTANAMEHERE" duration="00:00:00.0006724" startTime="2010-05-19T18:46:20.9843750-06:00" endTime="2010-05-19T18:46:20.9843750-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="613f5a98-5820-4363-83c4-68d38c75cac6" testId="2525a5d9-0a91-1abb-8e5b-f4a669494d56" testName="Hand_Value_Should_Be_More_Than_Hand_With_Lower_Card" computerName="PUTANAMEHERE" duration="00:00:00.0004299" startTime="2010-05-19T18:46:20.9843750-06:00" endTime="2010-05-19T18:46:21.0000000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fe2daf32-0b2f-491b-8dd6-68085140e857" testId="3c3de931-9395-9f79-0856-0d712395f304" testName="Hand_Value_Should_Be_Same_As_Hand_With_Same_Figures" computerName="PUTANAMEHERE" duration="00:00:00.0007454" startTime="2010-05-19T18:46:21.0000000-06:00" endTime="2010-05-19T18:46:21.0000000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5fb8e432-f135-426b-9dc9-5de78461dce5" testId="4c3e9fc8-1c5f-2adf-9207-64b667ab2e23" testName="Hand_Value_Should_Be_Greater_Than_Lower_Pair_With_Higher_Insignificant_Cards" computerName="PUTANAMEHERE" duration="00:00:00.0021580" startTime="2010-05-19T18:46:21.0000000-06:00" endTime="2010-05-19T18:46:21.0000000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="616c69c9-1e6d-47fc-839c-61624df32086" testId="9e566a6d-96ab-1715-9fc0-4793130e07ea" testName="CardGrid_HandsValue_Should_Be_A_Double" computerName="PUTANAMEHERE" duration="00:00:00.0030202" startTime="2010-05-19T18:46:21.0000000-06:00" endTime="2010-05-19T18:46:21.0156250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
