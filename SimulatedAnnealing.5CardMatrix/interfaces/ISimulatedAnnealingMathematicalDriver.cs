@@ -1,4 +1,4 @@
-﻿
+
 namespace SimulatedAnnealing._5CardMatrix.interfaces
 {
     interface ISimulatedAnnealingMathematicalDriver

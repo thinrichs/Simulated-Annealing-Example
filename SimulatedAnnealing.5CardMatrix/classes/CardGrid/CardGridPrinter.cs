@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,7 +20,6 @@ namespace SimulatedAnnealing._5CardMatrix.classes
 
         public static string PrintCardGrid(CardGrid grid)
         {
-            HandFinder _finder = new HandFinder();
             StringBuilder sb = new StringBuilder();
             for (int startIndex = 0; startIndex <= grid.Cards.Count; startIndex += grid.LengthOfSide)
             {

@@ -1,4 +1,4 @@
-﻿using SimulatedAnnealing._5CardMatrix.Enumerations;
+using SimulatedAnnealing._5CardMatrix.Enumerations;
 using System.Collections.Generic;
 using SimulatedAnnealing._5CardMatrix.Classes;
 

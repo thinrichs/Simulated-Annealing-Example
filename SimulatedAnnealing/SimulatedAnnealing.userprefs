@@ -1,0 +1,45 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tests/Tests/Hand_Value_Tests.cs" ctype="Workbench">
+    <Files>
+      <File FileName="../SimulatedAnnealing.5CardMatrix/classes/Services/HandFinder.cs" Line="99" Column="10" />
+      <File FileName="Tests/TestMethodExtensions/TestMethodExtensions.cs" Line="119" Column="58" />
+      <File FileName="Tests/Tests/Hand_Configuration_Tests.cs" Line="267" Column="36" />
+      <File FileName="Tests/Tests/Hand_Value_Tests.cs" Line="36" Column="84" />
+      <File FileName="Tests/Tests/RealWorld_Grid_Test.cs" Line="18" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True">
+          <Node name="SimulatedAnnealing.5CardMatrix" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="classes" expanded="True">
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="Tests" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="TestMethodExtensions" expanded="True" />
+            <Node name="Tests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True">
+          <Node name="Tests" expanded="True">
+            <Node name="HandTests" expanded="True">
+              <Node name="Tests" expanded="True" />
+            </Node>
+            <Node name="PokerTest" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

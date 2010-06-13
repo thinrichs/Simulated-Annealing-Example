@@ -1,4 +1,4 @@
-﻿//        ~~~ Class that implements array shuffling ~~~
+//        ~~~ Class that implements array shuffling ~~~
 //(RandomStringArrayTool.cs, C#)
 // Modified from http://dotnetperls.com/shuffle-array
 using System;

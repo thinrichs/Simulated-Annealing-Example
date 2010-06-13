@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel;
 using SimulatedAnnealing._5CardMatrix.interfaces;
 
