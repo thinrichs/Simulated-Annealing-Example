@@ -59,13 +59,11 @@ namespace SimulatedAnnealing._5CardMatrix.Classes
             }
             BaseValue = (int)Math.Floor(Value);            
             BaseHand = new HandFinder().FindBestHand(Cards);
-        }
-     
-        // the more I deal with this being a class instead of an enum the less I like it
-        // I generally dont do many returns in one code block but Ithink it makes sense here.
+        }     
+        
         public override string ToString()
         { 
-            // I wish you could do a switch on non integral types
+            // switch to use as  <Hand, String> map
             if (BaseHand == Hand.HighCard) { return "High Card"; }
             if (BaseHand == Hand.OnePair) { return "One Pair"; }
             if (BaseHand == Hand.TwoPair) { return "Two Pair"; }
