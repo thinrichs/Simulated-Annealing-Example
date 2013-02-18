@@ -60,7 +60,7 @@ namespace HandTests.Tests
 
         public override void Because()
         {
-            _cardsUnderTestHandValue = new Hand(_cardsUnderTest).Value;
+            _cardsUnderTestHandValue =  new Hand(_cardsUnderTest).Value;
         }
 
         [Test]

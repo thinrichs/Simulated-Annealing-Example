@@ -1,14 +1,16 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulatedAnnealing.5CardMatrix", "..\SimulatedAnnealing.5CardMatrix\SimulatedAnnealing.5CardMatrix.csproj", "{14D1CBAD-134A-4497-901D-A754F4302B2A}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{394BE3B5-9F4C-456E-AD60-D7CF4BF19E7A}"
 	ProjectSection(SolutionItems) = preProject
 		SimulatedAnnealing.vsmdi = SimulatedAnnealing.vsmdi
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulatedAnnealing.5CardMatrix", "..\SimulatedAnnealing.5CardMatrix\SimulatedAnnealing.5CardMatrix.csproj", "{14D1CBAD-134A-4497-901D-A754F4302B2A}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{2562EE2F-F798-4E41-ACD9-EA9C6324D13C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{76E9FAFA-63E4-49B1-A7BA-85A74CEEAFB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,7 +27,8 @@ Global
 		{2562EE2F-F798-4E41-ACD9-EA9C6324D13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2562EE2F-F798-4E41-ACD9-EA9C6324D13C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = ..\SimulatedAnnealing.5CardMatrix\SimulatedAnnealing.5CardMatrix.csproj
@@ -33,13 +36,12 @@ Global
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
 		$1.ResourceNamePolicy = FileFormatDefault
-		$0.TextStylePolicy = $2
+		$0.TextStylePolicy = $3
 		$2.FileWidth = 120
 		$2.TabWidth = 4
 		$2.inheritsSet = Mono
 		$2.inheritsScope = text/plain
 		$2.scope = text/plain
-		$0.TextStylePolicy = $3
 		$3.inheritsSet = null
 		$3.scope = text/x-csharp
 		$0.CSharpFormattingPolicy = $4
@@ -55,8 +57,5 @@ Global
 		$4.inheritsSet = Mono
 		$4.inheritsScope = text/x-csharp
 		$4.scope = text/x-csharp
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
