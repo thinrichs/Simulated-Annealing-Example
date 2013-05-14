@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{14D1CBAD-134A-4497-901D-A754F4302B2A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FiveCardMatrix</RootNamespace>
+    <AssemblyName>FiveCardMatrix</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\SimulatedAnnealing\packages\NUnit.2.6.2\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classes\CardGrid\CardGrid.cs" />
+    <Compile Include="classes\Card\BaseSwapPermuter.cs" />
+    <Compile Include="classes\Card\Card.cs" />
+    <Compile Include="classes\CardGrid\CardGridPrinter.cs" />
+    <Compile Include="classes\Card\CardSwapPermuter.cs" />
+    <Compile Include="classes\Card\SmartCardSwapPermuter.cs" />
+    <Compile Include="classes\Deck\Deck.cs" />
+    <Compile Include="classes\Annealing\SimulatedAnnealingMathematicalDriver.cs" />
+    <Compile Include="classes\Annealing\SimulatedAnnealingDriver.cs" />
+    <Compile Include="interfaces\ISimulatedAnnealingDriver.cs" />
+    <Compile Include="interfaces\ISimulatedAnnealingDriverStatistics.cs" />
+    <Compile Include="interfaces\ISimulatedAnnealingMathematicalDriver.cs" />
+    <Compile Include="interfaces\ISimulatedAnnealingRandomzier.cs" />
+    <Compile Include="interfaces\ISimulatedAnnealingSubject.cs" />
+    <Compile Include="interfaces\IStatePermuter.cs" />
+    <Compile Include="interfaces\IStateScorer.cs" />
+    <Compile Include="classes\Hand\MathematicalHandScorer.cs" />
+    <Compile Include="classes\Card\Enumerations\CardColor.cs" />
+    <Compile Include="classes\Card\Enumerations\CardFigure.cs" />
+    <Compile Include="classes\Hand\Hand.cs" />
+    <Compile Include="interfaces\IHandDefinitionService.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="classes\Services\HandFinder.cs" />
+    <Compile Include="classes\Deck\Shuffler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="interfaces\Interfaces.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
